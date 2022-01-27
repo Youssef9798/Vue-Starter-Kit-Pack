@@ -6,4 +6,4 @@ To install the starter kit after downloading the folder type in the project's te
  ```
   npm install
  ```
- This will install all the packges in the package.json file
+ This will install all the packges in the package.json file.

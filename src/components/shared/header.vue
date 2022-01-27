@@ -5,8 +5,8 @@
         <v-spacer></v-spacer>
         <template v-slot:extension>
           <v-tabs class="v-tabs-bar" color="#1d1d1d">
-            <v-tab><router-link to="/" active-class="active" tag="a" exact>Home</router-link></v-tab>
-            <v-tab><router-link to="/link1" active-class="active" tag="a">Link 1</router-link></v-tab>
+            <v-tab to="/" active-class="active" tag="a" exact>Home</v-tab>
+            <v-tab to="/link1" active-class="active" tag="a">Link 1</v-tab>
           </v-tabs>
         </template>
       </v-app-bar>      
@@ -22,10 +22,8 @@ export default {
     background: #eeeeee !important;
     .v-tab {
       text-transform: none !important;
-      a{
-        color: #1d1d1d;
-        text-decoration: none;
-      }
+      color: #1d1d1d !important;
+      text-decoration: none;
       &::before{
         background: #252525;
       }

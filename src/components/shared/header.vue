@@ -6,7 +6,6 @@
         <template v-slot:extension>
           <v-tabs class="v-tabs-bar" color="#1d1d1d">
             <v-tab to="/" active-class="active" tag="a" exact>Home</v-tab>
-            <v-tab to="/link1" active-class="active" tag="a">Link 1</v-tab>
           </v-tabs>
         </template>
       </v-app-bar>      

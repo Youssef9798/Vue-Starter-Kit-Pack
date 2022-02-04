@@ -8,3 +8,10 @@ To install the starter kit after downloading the folder type in the project's te
   npm install
  ```
  This will install all the packges in the package.json file.
+ 
+ ## Installing the Vuetify package
+ To add the vuetify to the project we need to use this command:
+ ```
+ vue add vuetify
+ ```
+ Then select the default and recommended setting from the list shown after use this command line.

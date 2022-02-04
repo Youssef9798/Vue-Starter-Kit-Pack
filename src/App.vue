@@ -13,7 +13,7 @@
 
 <script>
 import '@/assets/css/main.css';
-import Header from '/components/shared/Header.vue';
+import Header from '/components/shared/Header';
 
 export default {
   name: 'App',

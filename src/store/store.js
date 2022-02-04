@@ -3,7 +3,7 @@ import Vuex from 'vuex';
 
 Vue.use(Vuex);
 
-export const store = Vuex.Store({
+export const store = new Vuex.Store({
   state: {
     counter: 0
   }

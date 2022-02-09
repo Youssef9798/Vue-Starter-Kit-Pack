@@ -15,4 +15,4 @@ To install the starter kit after downloading the folder type in the project's te
  vue add vuetify
  ```
  Then select the default and recommended setting from the list shown after use this command line.
-> You can skip this step if you want to use vuetify
+> You can skip this step if you dont't want to use vuetify
